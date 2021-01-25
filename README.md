@@ -1,7 +1,7 @@
 # Anytime Learning of Decision Trees
-A python implementation of Decision Trees algorithms described in the paper ["Anytime Learning of Decision Trees"](https://www.jmlr.org/papers/volume8/esmeir07a/esmeir07a.pdf) written by Saher Esmeir and Shaul Markovitch.
+A python implementation of Decision Tree algorithms described in the paper ["Anytime Learning of Decision Trees"](https://www.jmlr.org/papers/volume8/esmeir07a/esmeir07a.pdf) written by Saher Esmeir and Shaul Markovitch.
 
-## Decision Trees Algorithms
+## Decision Tree Algorithms
 * ID3
 * C4.5
 * ID3-K - A lookahead version of ID3
