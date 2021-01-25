@@ -14,3 +14,29 @@ A python implementation of Decision Tree algorithms described in the paper ["Any
 * LSID3-MC - Monte Carlo evaluation of LSID3
 * IIDT - Interruptible Induction of Decision Trees
 * Pruning Method - Error Reduced Pruning
+
+## Prerequisites
+* Python 3.6+ ([Download Page](https://www.python.org/downloads/)). You can check python version with the command: `python --version`.
+
+## Usage
+This example will demonstrate how to use the Decision Tree Algorithms:
+```python
+from decisionTree import DecisionTree
+
+trainingSetFile = open('SampleSets/training_set.csv')
+trainingSetData = trainingSetFile.readlines()
+trainingSetFile.close()
+decisionTree = DecisionTree(trainingSetData)
+decisionTree.LSID3(3) # Using LSID3 with r=3
+print("Tree Size - Number of Nodes:", decisionTree.size())
+print("Number of Leafs:", decisionTree.getNumLeafs())
+print("Tree Depth:", decisionTree.getTreeDepth())
+```
+Example output:
+```json
+Tree Size - Number of Nodes: 321
+Number of Leafs: 159
+Tree Depth: 9
+```
+
+For more examples and information regarding the Decision Tree Algorithms, please view the test file decisionTreeTest.py.
