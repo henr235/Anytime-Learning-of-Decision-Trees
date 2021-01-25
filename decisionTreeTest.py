@@ -1,6 +1,5 @@
 from decisionTree import DecisionTree
 from decisionTreePlot import DecisionTreePlot
-import random
 
 if __name__ == "__main__":
     trainingSetFile = open('SampleSets/training_set.csv')
